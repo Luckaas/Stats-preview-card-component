@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/styles/style.css">
+  <title>Frontend Mentor | Stats preview card component</title>
+
+</head>
+
+<body>
+
+  <section id="card">
+    <div id="images">
+      <picture>
+        <source media="(min-width: 800px)" srcset="./src/images/image-header-desktop.jpg">
+        <source media="(min-width: 375px)" srcset="./src/images/image-header-mobile.jpg">
+        <img src="./src/images/image-header-desktop.jpg" alt="">
+      </picture>
+      <div id="overlayImage"></div>
+    </div>
+
+    <section id="content">
+      <div>
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.</p>
+      </div>
+
+      <div id="info">
+        <div id="companies">
+          <h2>10k+</h2>
+          <p>companies</p>
+        </div>
+
+        <div id="templates">
+          <h2>314</h2>
+          <p>templates</p>
+        </div>
+
+        <div id="queries">
+          <h2>12m+</h2>
+          <p>queries</p>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Luckaas">Lucas Gomes</a>.</p>
+  </div>
+</body>
+
+</html>
